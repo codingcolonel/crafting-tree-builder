@@ -1,0 +1,405 @@
+[
+    {
+        "item": {
+            "amount": 1,
+            "cost": 100,
+            "method": "REFINE",
+            "name": "Item1",
+            "category": "COMPONENT"
+        },
+        "children": [{
+            "item": {
+                "amount": 5,
+                "cost": 500,
+                "method": "CRAFT",
+                "name": "Item2",
+                "category": "CONSUMABLE"
+            },
+            "children": [
+                {
+                    "item": {
+                        "amount": 7,
+                        "cost": 1000,
+                        "method": "REFINE",
+                        "name": "Item3",
+                        "category": "COMPONENT"
+                    },
+                    "children": []
+                },
+                {
+                    "item": {
+                        "amount": 10,
+                        "cost": 750,
+                        "method": "CRAFT",
+                        "name": "Item4",
+                        "category": "CONSUMABLE"
+                    },
+                    "children": []
+                }
+            ]
+        }]
+    },
+    {
+        "item": {
+            "amount": 1,
+            "cost": 100,
+            "method": "REFINE",
+            "name": "Steel",
+            "category": "COMPONENT"
+        },
+        "children": [{
+            "item": {
+                "amount": 5,
+                "cost": 500,
+                "method": "CRAFT",
+                "name": "Wood",
+                "category": "CONSUMABLE"
+            },
+            "children": [
+                {
+                    "item": {
+                        "amount": 7,
+                        "cost": 1000,
+                        "method": "REFINE",
+                        "name": "Iron",
+                        "category": "COMPONENT"
+                    },
+                    "children": [{
+                        "item": {
+                            "amount": 1,
+                            "cost": 100,
+                            "method": "REFINE",
+                            "name": "Steel",
+                            "category": "COMPONENT"
+                        },
+                        "children": [{
+                            "item": {
+                                "amount": 5,
+                                "cost": 500,
+                                "method": "CRAFT",
+                                "name": "Wood",
+                                "category": "CONSUMABLE"
+                            },
+                            "children": [
+                                {
+                                    "item": {
+                                        "amount": 7,
+                                        "cost": 1000,
+                                        "method": "REFINE",
+                                        "name": "Iron",
+                                        "category": "COMPONENT"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "item": {
+                                        "amount": 10,
+                                        "cost": 750,
+                                        "method": "CRAFT",
+                                        "name": "Nickel",
+                                        "category": "CONSUMABLE"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }]
+                    }]
+                },
+                {
+                    "item": {
+                        "amount": 10,
+                        "cost": 750,
+                        "method": "CRAFT",
+                        "name": "Nickel",
+                        "category": "CONSUMABLE"
+                    },
+                    "children": [{
+                        "item": {
+                            "amount": 1,
+                            "cost": 100,
+                            "method": "REFINE",
+                            "name": "Steel",
+                            "category": "COMPONENT"
+                        },
+                        "children": [{
+                            "item": {
+                                "amount": 5,
+                                "cost": 500,
+                                "method": "CRAFT",
+                                "name": "Wood",
+                                "category": "CONSUMABLE"
+                            },
+                            "children": [
+                                {
+                                    "item": {
+                                        "amount": 7,
+                                        "cost": 1000,
+                                        "method": "REFINE",
+                                        "name": "Iron",
+                                        "category": "COMPONENT"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "item": {
+                                        "amount": 10,
+                                        "cost": 750,
+                                        "method": "CRAFT",
+                                        "name": "Nickel",
+                                        "category": "CONSUMABLE"
+                                    },
+                                    "children": [{
+                                        "item": {
+                                            "amount": 1,
+                                            "cost": 100,
+                                            "method": "REFINE",
+                                            "name": "Steel",
+                                            "category": "COMPONENT"
+                                        },
+                                        "children": [{
+                                            "item": {
+                                                "amount": 5,
+                                                "cost": 500,
+                                                "method": "CRAFT",
+                                                "name": "Wood",
+                                                "category": "CONSUMABLE"
+                                            },
+                                            "children": [
+                                                {
+                                                    "item": {
+                                                        "amount": 7,
+                                                        "cost": 1000,
+                                                        "method": "REFINE",
+                                                        "name": "Iron",
+                                                        "category": "COMPONENT"
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "item": {
+                                                        "amount": 10,
+                                                        "cost": 750,
+                                                        "method": "CRAFT",
+                                                        "name": "Nickel",
+                                                        "category": "CONSUMABLE"
+                                                    },
+                                                    "children": [{
+                                                        "item": {
+                                                            "amount": 1,
+                                                            "cost": 100,
+                                                            "method": "REFINE",
+                                                            "name": "Steel",
+                                                            "category": "COMPONENT"
+                                                        },
+                                                        "children": [{
+                                                            "item": {
+                                                                "amount": 5,
+                                                                "cost": 500,
+                                                                "method": "CRAFT",
+                                                                "name": "Wood",
+                                                                "category": "CONSUMABLE"
+                                                            },
+                                                            "children": [
+                                                                {
+                                                                    "item": {
+                                                                        "amount": 7,
+                                                                        "cost": 1000,
+                                                                        "method": "REFINE",
+                                                                        "name": "Iron",
+                                                                        "category": "COMPONENT"
+                                                                    },
+                                                                    "children": [{
+                                                                        "item": {
+                                                                            "amount": 1,
+                                                                            "cost": 100,
+                                                                            "method": "REFINE",
+                                                                            "name": "Steel",
+                                                                            "category": "COMPONENT"
+                                                                        },
+                                                                        "children": [{
+                                                                            "item": {
+                                                                                "amount": 5,
+                                                                                "cost": 500,
+                                                                                "method": "CRAFT",
+                                                                                "name": "Wood",
+                                                                                "category": "CONSUMABLE"
+                                                                            },
+                                                                            "children": [
+                                                                                {
+                                                                                    "item": {
+                                                                                        "amount": 7,
+                                                                                        "cost": 1000,
+                                                                                        "method": "REFINE",
+                                                                                        "name": "Iron",
+                                                                                        "category": "COMPONENT"
+                                                                                    },
+                                                                                    "children": []
+                                                                                },
+                                                                                {
+                                                                                    "item": {
+                                                                                        "amount": 10,
+                                                                                        "cost": 750,
+                                                                                        "method": "CRAFT",
+                                                                                        "name": "Nickel",
+                                                                                        "category": "CONSUMABLE"
+                                                                                    },
+                                                                                    "children": [{
+                                                                                        "item": {
+                                                                                            "amount": 1,
+                                                                                            "cost": 100,
+                                                                                            "method": "REFINE",
+                                                                                            "name": "Steel",
+                                                                                            "category": "COMPONENT"
+                                                                                        },
+                                                                                        "children": [{
+                                                                                            "item": {
+                                                                                                "amount": 5,
+                                                                                                "cost": 500,
+                                                                                                "method": "CRAFT",
+                                                                                                "name": "Wood",
+                                                                                                "category": "CONSUMABLE"
+                                                                                            },
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "item": {
+                                                                                                        "amount": 7,
+                                                                                                        "cost": 1000,
+                                                                                                        "method": "REFINE",
+                                                                                                        "name": "Iron",
+                                                                                                        "category": "COMPONENT"
+                                                                                                    },
+                                                                                                    "children": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "item": {
+                                                                                                        "amount": 10,
+                                                                                                        "cost": 750,
+                                                                                                        "method": "CRAFT",
+                                                                                                        "name": "Nickel",
+                                                                                                        "category": "CONSUMABLE"
+                                                                                                    },
+                                                                                                    "children": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }]
+                                                                                    }]
+                                                                                }
+                                                                            ]
+                                                                        }]
+                                                                    }]
+                                                                },
+                                                                {
+                                                                    "item": {
+                                                                        "amount": 10,
+                                                                        "cost": 750,
+                                                                        "method": "CRAFT",
+                                                                        "name": "Nickel",
+                                                                        "category": "CONSUMABLE"
+                                                                    },
+                                                                    "children": [{
+                                                                        "item": {
+                                                                            "amount": 1,
+                                                                            "cost": 100,
+                                                                            "method": "REFINE",
+                                                                            "name": "Steel",
+                                                                            "category": "COMPONENT"
+                                                                        },
+                                                                        "children": [{
+                                                                            "item": {
+                                                                                "amount": 5,
+                                                                                "cost": 500,
+                                                                                "method": "CRAFT",
+                                                                                "name": "Wood",
+                                                                                "category": "CONSUMABLE"
+                                                                            },
+                                                                            "children": [
+                                                                                {
+                                                                                    "item": {
+                                                                                        "amount": 7,
+                                                                                        "cost": 1000,
+                                                                                        "method": "REFINE",
+                                                                                        "name": "Iron",
+                                                                                        "category": "COMPONENT"
+                                                                                    },
+                                                                                    "children": []
+                                                                                },
+                                                                                {
+                                                                                    "item": {
+                                                                                        "amount": 10,
+                                                                                        "cost": 750,
+                                                                                        "method": "CRAFT",
+                                                                                        "name": "Nickel",
+                                                                                        "category": "CONSUMABLE"
+                                                                                    },
+                                                                                    "children": []
+                                                                                }
+                                                                            ]
+                                                                        }]
+                                                                    }]
+                                                                }
+                                                            ]
+                                                        }]
+                                                    }]
+                                                }
+                                            ]
+                                        }]
+                                    }]
+                                }
+                            ]
+                        }]
+                    }]
+                }
+            ]
+        }]
+    },
+    {
+        "item": {
+            "amount": 1,
+            "cost": 100000,
+            "method": "CRAFT",
+            "name": "Stasis Device",
+            "category": "TECHNOLOGY"
+        },
+        "children": [
+            {
+                "item": {
+                    "amount": 3,
+                    "cost": 10000,
+                    "method": "CRAFT",
+                    "name": "Superconductor",
+                    "category": "TECHNOLOGY"
+                },
+                "children": []
+            },
+            {
+                "item": {
+                    "amount": 5,
+                    "cost": 23456567,
+                    "method": "CRAFT",
+                    "name": "Cryogenic Chamber",
+                    "category": "TECHNOLOGY"
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "item": {
+            "amount": 83,
+            "cost": 489394,
+            "method": "REFINE",
+            "name": "billy bob joe'",
+            "category": "TECHNOLOGY"
+        },
+        "children": [{
+            "item": {
+                "amount": 15,
+                "cost": 234,
+                "method": "COOK",
+                "name": "dante",
+                "category": "CONSUMABLE"
+            },
+            "children": []
+        }]
+    }
+]

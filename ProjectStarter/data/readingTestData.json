@@ -1,0 +1,54 @@
+[
+    {
+      "item": {
+        "name": "Item1",
+        "category": "COMPONENT",
+        "method": "REFINE",
+        "amount": 1,
+        "cost": 100
+      },
+      "children": [
+        {
+          "item": {
+            "name": "Item2",
+            "category": "CONSUMABLE",
+            "method": "CRAFT",
+            "amount": 5,
+            "cost": 500
+          },
+          "children": [
+            {
+              "item": {
+                "name": "Item3",
+                "category": "COMPONENT",
+                "method": "REFINE",
+                "amount": 7,
+                "cost": 1000
+              },
+              "children": []
+            },
+            {
+              "item": {
+                "name": "Item4",
+                "category": "CONSUMABLE",
+                "method": "CRAFT",
+                "amount": 10,
+                "cost": 750
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": {
+        "name": "Item5",
+        "category": "COMPONENT",
+        "method": "REFINE",
+        "amount": 2,
+        "cost": 200
+      },
+      "children": []
+    }
+  ]
